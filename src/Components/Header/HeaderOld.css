@@ -1,0 +1,77 @@
+:root {
+    --main-radius: 12px;
+    --main-padding: 20px;
+    --inner-content-padding: 20px;
+    --main-shadow: 5px 10px 10px #a598983d;
+    --content-bg: #fff;
+    --brand-color: #e06030;
+    --main-fontsize: 15px;
+}
+
+.content-box {
+    background-color: var(--content-bg);
+    padding: var(--main-padding);
+    border-radius: var(--main-radius);
+    box-shadow: var(--main-shadow);
+}
+
+.content-box:hover {
+    box-shadow: 0px 0px 15px #7070706b;
+}
+
+.navbar {
+    background-color: var(--content-bg);
+    border-radius: var(--main-radius);
+    box-shadow: var(--main-shadow);
+    padding: 15px;
+    line-height: 0;
+}
+
+.navbar > .notification-panel {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 35px;
+}
+
+.navbar > .notification-panel > p {
+    font-size: 12px;
+}
+
+.search-bar > .search-bar-input > input {
+    background-color: var(--content-bg);
+    box-shadow: var(--main-shadow);
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px 30px;
+    border: none;
+    outline: none !important;
+}
+
+.search-bar > .search-bar-input > input:focus {
+    outline: none;
+    border: none;
+}
+
+.search-bar > .search-bar-input::before {
+    font-family: FontAwesome;
+    content: "\f002";
+    padding: 0.7rem;
+    position: absolute;
+    color: var(--brand-color);
+}
+
+.nav-icon > .icon {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 7px 10px;
+    box-shadow: var(--main-shadow);
+}
+
+.nav-icon > .icon > img {
+    width: 20px;
+}

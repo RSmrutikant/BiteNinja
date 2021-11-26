@@ -1,0 +1,485 @@
+.department {
+  margin-inline: 1rem;
+}
+
+.dropdown-menus {
+  box-shadow: var(--main-shadow);
+  border-radius: 10px;
+  border: 1px solid orangered;
+}
+input[type='date'].form-control,
+input[type='time'].form-control,
+input[type='datetime-local'].form-control,
+input[type='month'].form-control {
+  border-radius: 25px;
+  box-shadow: var(--main-shadow);
+  border: none;
+}
+.curdate::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  left: 7rem;
+  top: 15px;
+  border-radius: 10px;
+  position: absolute;
+  background-color: #e06030;
+}
+
+.shift-table-wrapper {
+  width: 100%;
+  height: 20vh !important;
+  overflow: auto;
+}
+
+.shift-table-wrapper2 {
+  width: 100%;
+  height: 28vh !important;
+  overflow: auto;
+}
+
+.shift-table-wrapper::-webkit-scrollbar {
+  width: 0.3rem;
+  border-radius: 1.5rem;
+}
+.shift-table-wrapper2::-webkit-scrollbar {
+  width: 0.3rem;
+  border-radius: 1.5rem;
+}
+.shift-table-wrapper::-webkit-scrollbar-thumb {
+  background-color: #e06030;
+  border-radius: 1.5rem;
+  height: 4rem;
+}
+.shift-table-wrapper2::-webkit-scrollbar-thumb {
+  background-color: #e06030;
+  border-radius: 1.5rem;
+  height: 4rem;
+}
+/* switch toggle button css start =====================*/
+.assign-status {
+  background-color: #2ca153;
+  color: #fff;
+  border-radius: 12px;
+  padding: 0 1rem;
+  border-radius: 20px;
+  max-width: 80%;
+  display: flex;
+  align-self: center;
+  margin-right: 5px;
+  height: 30px;
+  justify-content: center;
+}
+.assign-status h6 {
+  margin: auto;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.assign-to {
+  background-color: #e06030;
+  color: #fff;
+}
+.assign-to svg {
+  color: #fff;
+}
+
+.slider-image {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e06030;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.assinged-image-switch {
+  background-color: #2ca153;
+  border-radius: 20px;
+  max-width: 11rem;
+  display: flex;
+  align-self: center;
+  margin: auto;
+  height: 30px;
+
+  /* padding: 0 1rem; */
+}
+
+.aproved-user {
+  background-color: #2ca153;
+}
+.aproved-user:hover {
+  background-color: #2ca153;
+}
+.assinged-image-switch span {
+  margin: auto 4px;
+
+  /* padding: 0 1rem; */
+}
+.assinged-image-switch h6 {
+  color: #fff;
+  margin: auto 5px;
+}
+
+/*--------- toggle button end--------*/
+
+.edit-bid {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background-color: #e06030;
+  padding: 4px;
+  border-radius: 25px;
+  color: #fff;
+  transition: 0.3s;
+}
+.edit-bid-hidden {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  padding: 4px;
+  border-radius: 25px;
+  color: #fff;
+  transition: 0.3s;
+}
+.edit-bid :hover {
+  cursor: pointer;
+}
+.green-bg {
+  background-color: #2ca153;
+  color: #fff;
+}
+.assigned-tick {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #525252;
+  /* padding: 4px; */
+  padding-top: 2px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.membersImage {
+  background-color: #2ca153;
+  padding: 9px 30px;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.userimage {
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  position: relative;
+  margin-left: -30px;
+  margin-right: 20px;
+}
+
+.ant-pagination {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.filter-container {
+  display: flex;
+  /* height: 100px; */
+  width: 100%;
+  /* align-items: flex-end; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.empty-container {
+  color: 'red';
+  background-color: 'white';
+  padding: '1rem';
+}
+.shiftpool-table {
+  /* border: 1px solid #e06030; */
+  overflow-y: scroll;
+  width: 100%;
+  margin-top: 1rem;
+}
+.shiftpool-table tbody {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+}
+.shiftpool-table td,
+.shiftpool-table th {
+  border: none;
+}
+.shift-table-container {
+  overflow-y: scroll;
+  max-height: 65vh;
+}
+
+.RCM_two_level_table1 .ant-table .ant-table-tbody > tr:hover > td {
+  background: unset;
+}
+
+.RCM_two_level_table1 tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.RCM_two_level_table1 tbody tr:nth-child(even) {
+  background-color: #f5f5ff;
+  color: #000;
+}
+
+.green-bg {
+  background-color: #2ca153 !important;
+}
+
+.green-bg:hover {
+  background-color: #2ca153 !important;
+}
+
+.shift-review {
+  color: #e06030;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Montserrat-Regular';
+}
+
+.timings-from-to {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 1rem;
+}
+.timings-from-to h3 {
+  font-size: 1rem;
+  font-family: 'Metropolis-Regular';
+  color: #3d3d3d;
+}
+.review-modal .ant-modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  position: relative;
+}
+.review-modal .ant-modal-content {
+  border-radius: 12px;
+}
+
+.review-modal .close-modal {
+  position: absolute;
+  top: 1rem;
+  right: 10px;
+}
+
+.shown-warning {
+  align-self: flex-start;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+.review-modal .anticon {
+  color: inherit !important;
+}
+
+.ant-radio-button-wrapper-checked {
+  border-color: #e06030 !important ;
+  background-color: #e06030 !important;
+}
+
+.ant-radio-button-wrapper-checked:after {
+  background-color: #e06030 !important;
+}
+
+.ant-radio:hover .ant-radio-inner {
+  border-color: #e06030;
+  background-color: #e06030;
+}
+
+.ant-radio-button-wrapper-checked:focus {
+  border-color: #e06030;
+  background-color: #e06030 !important;
+}
+
+.payment-review-modal .ant-modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0;
+}
+.payment-review-modal .ant-modal-content {
+  border-radius: 12px;
+  padding: 0;
+}
+.payment-review-modal .close-modal {
+  color: #fff !important;
+}
+.work-summary {
+  color: rgb(32, 21, 21);
+  text-align: center;
+  font-family: 'Montserrat-Regular';
+  font-size: 1rem;
+  font-weight: 700;
+}
+.payment-summary {
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat-Regular';
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.payment-review-modal .close-modal {
+  position: absolute;
+  top: 1rem;
+  right: 10px;
+}
+.payment-review-modal .deparment {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.payment-review-modal .role-location {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.payment-review-modal .timings-from-to {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 1rem;
+}
+.payment-review-modal .timings-from-to h3 {
+  font-size: 1rem;
+  font-family: 'Metropolis-Regular';
+  color: #fff;
+  margin: 0 1rem;
+}
+.payment-review-modal .work-details {
+  background-color: #e06030;
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 12px;
+}
+/* Montserrat-Regular */
+
+.summary-table > thead,
+tbody > tr {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 5px 1rem;
+}
+
+.summary-table > tr > td {
+  /* margin: 2rem; */
+  min-width: 2rem;
+  margin: 0 0.5rem;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.proceed-to-pay {
+  font-family: 'Montserrat-Regular';
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #e16025;
+  margin: 1.5rem 0;
+}
+
+.payment-review-modal .user-name {
+  font-family: 'Montserrat-Regular';
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0 1rem;
+}
+.pricing-info {
+  font-family: 'Montserrat-Regular';
+  font-size: 1rem;
+  margin: 1.5rem 0;
+}
+.value-hr {
+  color: #000;
+}
+.label-hr {
+  color: #e16025;
+}
+.total-amt {
+  border: solid 0.5px #545454;
+  padding: 1rem 1rem 0;
+  border-radius: 1rem;
+  margin: 0 4rem;
+  width: 80%;
+  /* display: flex; */
+}
+.total-amt .total-amt-label {
+  /* margin-left: 35px; */
+  font-family: 'Montserrat-Regular';
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.total-amt-value {
+  /* margin-left: 35px; */
+  font-family: 'Montserrat-Regular';
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 800;
+
+  display: inline-block;
+  align-self: flex-end;
+}
+.view-statemet {
+  font-family: 'Montserrat-Regular';
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #e16025;
+  align-self: center;
+  text-decoration: underline;
+  margin: 0.5rem 0.2rem;
+  /* margin: 1.5rem 0; */
+}
+
+.paid-status {
+  font-family: 'Montserrat-Regular';
+  font-size: 0.8rem;
+  color: #fff;
+}
+.table-e-tr {
+  background-color: #fff !important;
+  border: none !important;
+}
+.table-o-tr {
+  background-color: #f5f5ff !important;
+  border: none !important;
+}
+
+.table > thead > tr > th {
+  border: none;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border: none;
+}

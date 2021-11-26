@@ -1,0 +1,229 @@
+:root {
+  --brand-color: #e06030;
+}
+
+/* Universal marking */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.signup-window {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.signup-window::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+.signup-window::-webkit-scrollbar-thumb {
+  background-color: #e06030;
+  border-radius: 1.5rem;
+}
+.signup-nav-logos {
+  margin-top: 2rem;
+}
+
+.signup-rounded-logo > img {
+  width: 96px;
+  height: 96px;
+}
+
+.signup-flat-logo > img {
+  width: 200px;
+  height: 80px;
+}
+
+.signup-box {
+  width: 20%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: -6rem;
+}
+
+.signup-illustration {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-input-box > .form-control {
+  height: 2.8rem;
+}
+
+.signup-input-box > label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.signup-input > p > a {
+  color: var(--brand-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-illustration > img {
+  width: 100%;
+}
+
+.signup-input-box > .form-control:focus {
+  border: 2px solid #000729;
+  border-left: 0.4rem solid var(--brand-color);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.signup-input2 {
+  color: #575757;
+  font-weight: 500;
+}
+
+.form-check > .form-check-label {
+  font-size: 12px;
+}
+
+.form-check > .form-check-label > span > a {
+  color: var(--brand-color);
+  font-weight: 700;
+}
+
+.signup-input3 > .signup-btn {
+  background-color: var(--brand-color);
+  padding: 0.5rem 2.5rem;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* drag section start */
+
+.drop-zone {
+  margin-block: 0;
+  background-color: #e05f3025;
+  max-width: 100%;
+  height: 8.5rem;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+  color: #000;
+  font-weight: 600;
+  border: 1px dashed #000;
+  border-radius: 30px;
+}
+
+.drop-zone__prompt > .drop-zone-icon {
+  width: 40px;
+  padding-block: 0.5rem;
+  max-height: 50px;
+}
+
+.drop-zone-icon {
+  max-height: 50px;
+  width: 40px;
+}
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+
+/* drag section end */
+
+/* media Queries for Smartphone devices */
+
+@media only screen and (max-width: 600px) {
+  .signup-window {
+    overflow-y: scroll;
+  }
+  .signup-rounded-logo > img {
+    width: 40%;
+  }
+  .signup-nav-logos {
+    margin-top: 1.2rem;
+  }
+  .signup-flat-logo > img {
+    width: 200px;
+  }
+  .signup-illustration > img {
+    width: 100%;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .signup-box {
+    width: 100%;
+    height: 100vh;
+    margin-top: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* media Queries for Medium Size devices */
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .signup-flat-logo > span {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .signup-flat-logo > small {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .signup-box {
+    width: 50%;
+  }
+}
+
+/* ----------- iPad Pro ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .signup-box {
+    width: 50%;
+    /* margin-top: -2rem; */
+  }
+}
+.invalid-w9 {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}

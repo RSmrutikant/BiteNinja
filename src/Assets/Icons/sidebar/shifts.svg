@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.159" height="9.138">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:1.173px}
+        </style>
+    </defs>
+    <g id="Group_650" data-name="Group 650" transform="translate(-41.563 -1628.684)">
+        <g id="Group_648" data-name="Group 648">
+            <path id="Line_56" data-name="Line 56" class="cls-1" transform="translate(47.795 1630.957)" d="M0 0h13.927"/>
+            <path id="Line_57" data-name="Line 57" class="cls-1" transform="translate(41.563 1630.957)" d="M0 0h2.371"/>
+            <circle id="Ellipse_124" data-name="Ellipse 124" class="cls-1" cx="1.686" cy="1.686" r="1.686" transform="translate(44.423 1629.271)"/>
+        </g>
+        <g id="Group_649" data-name="Group 649">
+            <path id="Line_58" data-name="Line 58" class="cls-1" transform="translate(41.563 1635.55)" d="M13.927 0H0"/>
+            <path id="Line_59" data-name="Line 59" class="cls-1" transform="translate(59.352 1635.55)" d="M2.371 0H0"/>
+            <path id="Path_324" data-name="Path 324" class="cls-1" d="M55.491 1635.55a1.686 1.686 0 1 1 1.686 1.686 1.686 1.686 0 0 1-1.686-1.686z"/>
+        </g>
+    </g>
+</svg>

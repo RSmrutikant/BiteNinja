@@ -1,0 +1,99 @@
+.meeting-table > tr > th {
+    color: #7b7b7c;
+}
+.add-meet > a {
+    background-color: #e06030;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-inline-end: 2rem;
+    font-size: 12px;
+}
+
+.delete-meet {
+    background-color: #e06030;
+    color: #fff;
+    padding: 5px 10px;
+    height: 2.3rem;
+    border-radius: 25px;
+}
+
+.meet-option {
+    border-bottom: #555555;
+    height: 0.5rem;
+}
+.meet-option > h6:hover {
+    color: #e06030;
+}
+.meet-table-content > tr {
+    background-color: transparent;
+}
+.meet-table-content > tr > td {
+    font-size: 12px;
+    font-weight: 700;
+}
+.join-meet {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 0;
+    background-color: #e06030;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.join-meet:hover {
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 5px 0px 10px #79797962;
+}
+
+.join-meet:focus {
+    background-color: #555555;
+}
+
+.meet-action-btn {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 0;
+    background-color: #e06030;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.meet-action-btn:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 0px 10px #79797962;
+}
+
+/* bootstrap tabs custom css */
+.nav-tabs,
+.nav-item.show,
+.nav-link:hover {
+    border: none;
+    border-bottom: 4px solid #e06030;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #e06030;
+}
+.nav-tabs .nav-link {
+    text-align: center;
+    color: #000;
+    width: 200px;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #ccc;
+}
+
+/* bootstrap tabs css end */

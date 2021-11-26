@@ -1,0 +1,76 @@
+.FloatingTextField {
+  position: relative;
+}
+
+.FloatingTextField input {
+  padding: 8px 20px;
+  padding-top: 18px;
+  border: 1.8px solid rgba(107, 107, 107, 0.4);
+  border-radius: 3px;
+  width: 100%;
+  color: black;
+  font-size: 1rem;
+  height: 50px;
+}
+
+.FloatingTextField input:focus {
+  outline: none;
+}
+
+.FloatingTextField span {
+  pointer-events: none;
+  opacity: 0.5;
+  position: absolute;
+  padding-left: 10px;
+  /* padding: 0px; */
+  left: 0;
+  top: 25px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: text;
+}
+
+.FloatingTextField input:focus + span,
+.FloatingTextField input:not(:placeholder-shown) + span {
+  top: 3px;
+  -webkit-transform: scale(0.7) translateY(-6px) translateX(-8.5px);
+  transform: scale(0.7) translateY(-6px) translateX(-8.5px);
+  padding-left: 10px;
+  left: 0;
+}
+.FloatingTextField input:-webkit-autofill ~ span {
+  /* CSS property  */
+  top: 3px;
+  -webkit-transform: scale(0.7) translateY(-6px) translateX(-8.5px);
+  transform: scale(0.7) translateY(-6px) translateX(-8.5px);
+  padding-left: 10px;
+  left: 0;
+  padding-left: 10px;
+}
+.FloatingTextField input:-webkit-autofill::first-line {
+  font-size: 1rem;
+  left: 0;
+  padding-left: 10px;
+}
+.FloatingTextField input,
+.FloatingTextField span {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  left: 0;
+  padding-left: 10px;
+}
+
+.floatingInput:focus {
+  border: 2px solid #000729;
+  border-left: 0.4rem solid var(--brand-color);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  left: 0;
+  padding-left: 10px;
+}

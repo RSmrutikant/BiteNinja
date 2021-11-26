@@ -1,0 +1,158 @@
+:root {
+  --main-radius: 12px;
+  --main-padding: 20px;
+  --inner-content-padding: 20px;
+  --main-shadow: 5px 10px 10px #a598983d;
+  --content-bg: #fff;
+  --brand-color: #e06030;
+  --main-fontsize: 15px;
+}
+
+.pro-sidebar {
+  z-index: unset !important;
+}
+
+.pro-sidebar-inner {
+  background: var(--content-bg) !important;
+}
+
+.anticon.arrow {
+  color: var(--brand-color) !important;
+}
+
+.arrow-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 15px;
+  margin: 0 20px 15px 0 !important;
+}
+
+.sidebar-container {
+  height: inherit;
+}
+
+div.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-wrapper > img {
+  margin: auto;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+.profile-wrapper > img.colpse {
+  width: 40%;
+  margin-bottom: unset;
+}
+
+.profile-wrapper > h4 > a {
+  color: var(--brand-color);
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.profile-wrapper > h4.colpse > a {
+  padding: 5px;
+  font-weight: 800;
+  margin-top: 1rem;
+  font-size: 8px;
+}
+
+hr.profileHr {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  background-color: var(--brand-color);
+}
+
+.pro-sidebar
+  .pro-menu.shaped
+  .pro-menu-item
+  > .pro-inner-item
+  > .pro-icon-wrapper {
+  background-color: unset !important;
+}
+
+.pro-item-content {
+  color: var(--content-bg);
+}
+
+.pro-menu {
+  margin-top: 1rem;
+  background-color: var(--brand-color);
+}
+
+.anticon.icon {
+  color: var(--content-bg) !important;
+}
+
+.pro-sidebar .pro-menu {
+  height: 100%;
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+  background-color: unset !important;
+}
+
+.pro-sidebar .pro-menu a {
+  text-decoration: none;
+  color: var(--content-bg) !important;
+}
+
+.pro-inner-item {
+  padding: 1px 35px 1px 20px !important;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--brand-color);
+}
+
+.footer-wrapper > img {
+  width: 18%;
+  margin: auto;
+}
+
+.footer-wrapper > h4 {
+  font-weight: 800;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer-wrapper > p {
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-wrapper > h5 {
+  font-size: 0.8rem;
+  color: #fff;
+  padding-bottom: 0.3rem;
+}
+
+.footer-wrapper > h5.colpse {
+  font-size: 0.5rem;
+}
+
+.footer-wrapper > p.colpse {
+  font-size: 5px;
+  padding: 1px 5px 1px 5px;
+  letter-spacing: 1px;
+}
+
+.footer-wrapper > h4.colpse {
+  font-size: 10px;
+}
+
+.footer-wrapper > img.colpse {
+  width: 40%;
+}

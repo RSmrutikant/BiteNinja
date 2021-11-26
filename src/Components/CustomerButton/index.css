@@ -1,0 +1,49 @@
+.primary .ant-btn {
+  background-color: #e06030;
+  color: #fff;
+  border: none;
+  margin: 0px 0.3rem;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.primary.ant-btn:hover {
+  background-color: #e06030;
+  color: #fff;
+  border: none;
+  margin: 0px 0.3rem;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.alternate .ant-btn {
+  background-color: #fff;
+  color: #e06030;
+  border: 1px solid #e06030;
+  margin: 0px 0.3rem;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.sucess .ant-btn {
+  background-color: #2ca153;
+  color: #fff;
+  border: none;
+  margin: 0px 0.3rem;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.upcomming .ant-btn {
+  background-color: #fff;
+  color: #2ca153;
+  border: 1px solid #2ca153;
+  margin: 0px 0.3rem;
+  width: fit-content;
+  max-width: 100%;
+}
+
+#custom_button[disabled] {
+  background-color: grey !important;
+  color: #fff;
+}

@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(19, 9, 9, 0.03);
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  /* position: fixed; */
+  overflow-y: scroll;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: local('Helvetica'),
+    url('./Assets/fonts/Helvetica.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Metropolis-Regular';
+  src: local('Metropolis-Regular'),
+    url('./Assets/fonts/Metropolis-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: local('Montserrat-Bold'),
+    url('./Assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: local('Montserrat-Regular'),
+    url('./Assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: local('Montserrat-SemiBold'),
+    url('./Assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Metropolis-Medium';
+  src: local('Metropolis-Medium'),
+    url('./Assets/fonts/Metropolis-Medium.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: local('Metropolis-Bold'),
+    url('./Assets/fonts/Metropolis-Bold.ttf') format('truetype');
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+a,
+label,
+input {
+  font-family: 'Montserrat-Regular';
+}
+.pointer {
+  cursor: pointer;
+}
+
+.required {
+  color: #f54848;
+  font-size: 14px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+/* Hide zoom meeting container during initial load */
+
+#zmmtg-root {
+  display: none;
+}
+
+/* Hide zoom meeting details icon during live call */
+
+.meeting-info-container {
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: -40px;
+  }
+}
+
+.error-message {
+  color: #f54848;
+  padding-top: 3px;
+  font-size: 11px;
+}
+
+.form-check .form-check-label {
+  margin-left: 20px;
+  font-size: 12px;
+  margin-top: 1px;
+}
+.form-check .form-check-label a {
+  text-decoration: underline;
+  color: #f54848;
+}
+.form-check {
+  display: flex;
+  padding-left: 0;
+}
+
+.form-check-input {
+  width: 12px;
+  height: 12px;
+}
+
+.ant-table-tbody > tr.ant-table-row-level-1:hover > td {
+  background: unset;
+}
+.ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td,
+.ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td,
+.ant-table-thead > tr:hover:not(.ant-table-expanded-row) > td,
+.ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+  background: unset;
+}
+
+.ant-table-tbody > tr.ant-table-row-level-1:hover > td {
+  background: unset;
+}
+
+h2.Meeting-heading {
+  color: #e16025;
+  /* font-weight: 600; */
+  font-size: 1.85rem;
+  margin-top: 1rem;
+  font-family: 'Montserrat-Bold';
+}

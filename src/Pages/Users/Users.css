@@ -1,0 +1,79 @@
+.ant-tabs {
+    width: 100%;
+}
+
+.ant-tabs-tab {
+    width: 10rem !important;
+    text-align: center !important;
+    color: #363636 !important; 
+    font-size: 17px !important;
+    padding-left: 40px !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #363636 !important; 
+    font-size: 17px !important;
+}
+
+.ant-tabs-ink-bar {
+    position: absolute;
+    background: #E26020 !important;
+    pointer-events: none;
+    height: 5px !important;
+    width: 10rem !important;
+}
+
+.ant-tabs-nav {
+    border-bottom: 2px solid rgba(173, 172, 172, 0.432);
+}
+
+.ant-table-placeholder {
+    height: 70vh !important;
+    background-color: #F8F8F8;
+}
+
+.ant-table-placeholder:hover {
+    background-color: #F8F8F8;
+}
+
+.ant-table-cell {
+    font-size: 14px;
+}
+
+.expand-row {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: auto;
+}
+
+.ant-switch-checked {
+    background-color: #E26020 !important;
+}
+
+.create-btn-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    padding: auto;
+}
+
+.ant-btn.addUserBtn {
+    width: 15%;
+    height: 35px;
+    margin-top: 1rem;
+    border-radius: 15px !important;
+}
+
+.ant-btn.addUserBtn > span {
+    font-size: 16px;
+}
+
+.ant-btn.ant-btn-primary {
+    border: #E26020 !important;
+    background-color: #E26020 !important;
+}
+
+.submit-btn {
+    margin-right: 10px;
+}

@@ -1,0 +1,124 @@
+:root {
+  --brand-color: #e06030;
+  --small-text: grey;
+}
+
+/* Universal marking */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .login-nav-logos {
+  margin-top: 3rem;
+}
+
+.login-rounded-logo > img {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+/* .login-illustration {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+} */
+/* 
+.login-input > p > a {
+  color: var(--brand-color);
+  text-decoration: none;
+}
+
+.login-illustration > img {
+  width: 100%;
+}
+
+.login-input2 {
+  color: var(--small-text);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.login-input2 > .forgot-pass > span > a {
+  color: var(--small-text);
+  text-decoration: none;
+}
+
+.login-input2 > .forgot-pass > span > a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.login-input2 > .check-box {
+  background-color: var(--brand-color);
+}
+
+.form-check-input-bg {
+  background-color: var(--brand-color);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .login-nav-logos {
+    margin-top: 1.2rem;
+  }
+  .login-rounded-logo > img {
+    width: 40%;
+  }
+  .login-flat-logo > img {
+    width: 150px;
+  }
+  .login-illustration > img {
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .login-box {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+}
+ */
+
+.login-input3 > .login-btn1 {
+  background-color: var(--brand-color);
+  padding: 0.6rem 4rem;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+}
+.login-flat-logo,
+.login-flat-logo > img {
+  /* width: 200px;
+  height: 80px; */
+  /* min-height: 2rem; */
+  max-width: 10rem;
+  height: 4rem;
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  flex-direction: column;
+  max-width: 25rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .login-box {
+    width: 45%;
+    max-width: 45%;
+    /* max-width: 25rem; */
+  }
+}

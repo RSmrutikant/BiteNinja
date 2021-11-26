@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    width: 100%;
+    background: inherit;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 2px 1px 1px #aaaaaa;
+    padding: 10px;
+}
+
+.buttonWrapper {
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    background: inherit;
+}
+
+.button {
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0px 10px 0px 25px; 
+}
+
+.dateListScrollable {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin: 2px 0 2px -40px;
+    -webkit-overflow-scrolling: touch;
+    background-image: linear-gradient(180deg, white, rgba(207, 207, 207, 0.849), 90%);
+
+}
+
+/* .dateListScrollable:after {
+    content  : "";
+    position : absolute;
+    z-index  : 0.56;
+    bottom   : 0;
+    left     : 0;
+    pointer-events   : none;
+    background-image : linear-gradient(to bottom, 
+                    rgba(255,255,255, 0), 
+                    rgba(255,255,255, 1) 90%);
+    width    : 100%;
+    height   : 4em;
+} */
+
+.dateListScrollable::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.monthContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.monthYearLabel {
+    align-self: flex-start;
+    z-index: 3;
+    font-size: 15px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: max-content;
+    margin: 0 14px 10px 0;
+}
+
+.dateDayItem{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #E26020;
+    border-radius: 32px;
+    color: white;
+}
+
+.daysContainer {
+    display: flex;
+    z-index: 1;
+}
+
+.dayLabel {
+    z-index: 1;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.dateDayWrapper {
+    margin: 5px 18px 18px 5px;
+    cursor: pointer;
+}
+
+.dateLabel {
+    font-size: 18px;
+}

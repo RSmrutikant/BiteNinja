@@ -1,0 +1,34 @@
+.page-title {
+  font-size: 1.9rem;
+  font-family: 'Helvetica';
+  font-weight: bold;
+}
+
+.pagination-indicator {
+  font-family: 'Montserrat-Bold';
+  color: #4c4c4c;
+  /* font-weight: bold; */
+  font-size: 1rem;
+}
+
+.date-picker .ant-picker-input input {
+  font-family: 'Metropolis-Regular';
+  color: #4c4c4c;
+  /* font-weight: bold; */
+  font-size: 1rem;
+}
+
+.shift-table-header th {
+  font-family: 'Metropolis-Bold';
+  color: #e06030;
+  font-size: 1rem;
+}
+.shiftpool-table .shift-table-body td {
+  font-family: 'Metropolis-Medium';
+  font-size: 0.9rem;
+  /* font-weight: 500; */
+}
+
+.lock-icon {
+  margin: 0;
+}
